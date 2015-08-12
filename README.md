@@ -21,6 +21,8 @@ I tested the code very well with 328p (Arduino Uno, Duemilanove etv), not with 2
 
 -------------------------------------------------------------------
 
+The link for GRBL vanilla is: http://github.com/grbl/grbl
+
 Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328.
 
 The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
@@ -37,4 +39,4 @@ Lead Developer [2011 - Current]: Sungeun(Sonny) K. Jeon, Ph.D. (USA) aka @chamni
 
 Lead Developer [2009 - 2011]: Simen Svale Skogsrud (Norway). aka The Originator/Creator/Pioneer/Father of Grbl.
 
-The links for GRBL vanilla is: http://github.com/grbl/grbl
+The link for GRBL vanilla is: http://github.com/grbl/grbl
