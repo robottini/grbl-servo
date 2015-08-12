@@ -2,7 +2,7 @@
 grbl 0.9i with Servo motor support
 
 GRBL 0.9i with servo motor support.
-Use the PIN D11 to driver the servo. 
+Use the PIN D11 to drive the servo. 
 Use the commands M03 Sxxx (xxx between 0 and 255) to rotate the servo between 0-180.
 The command M05 turn the servo to zero degrees.
 
@@ -14,11 +14,10 @@ define RC_SERVO_LONG      32       // Timer ticks for 2.5 ms pulse duration  (39
 
 define RC_SERVO_INVERT     1     // Uncomment to invert servo direction
 
-
-
-
 If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39
-If ypu want invert the servo mouvement uncomment the line above.
+If you want invert the servo direction uncomment the line above.
+
+I tested the code very well with 328p (Arduino Uno, Duemilanove etv), not with 2560 (Arduino Mega), but I think it would work well also with the Mega.
 
 -------------------------------------------------------------------
 
@@ -38,3 +37,4 @@ Lead Developer [2011 - Current]: Sungeun(Sonny) K. Jeon, Ph.D. (USA) aka @chamni
 
 Lead Developer [2009 - 2011]: Simen Svale Skogsrud (Norway). aka The Originator/Creator/Pioneer/Father of Grbl.
 
+The links for GRBL vanilla is: http://github.com/grbl/grbl
