@@ -47,7 +47,7 @@ void spindle_init()
   #ifndef USE_SPINDLE_DIR_AS_ENABLE_PIN
     SPINDLE_DIRECTION_DDR |= (1<<SPINDLE_DIRECTION_BIT); // Configure as output pin.
   #endif
-  spindle_stop();
+  spindle_run(SPINDLE_ENABLE_CW,0);  // define initial position as 0 value
 }
 
 
