@@ -1,3 +1,7 @@
+# Remarks
+This is a fork from robbttini/grbl-servo with a fix for SG90 servo motor.
+It will force SG90 to set zero instead of the middle.
+
 # grbl-servo
 grbl 0.9i with Servo motor support
 
